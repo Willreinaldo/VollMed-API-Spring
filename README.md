@@ -9,16 +9,10 @@ Faça o download do código fonte da aplicação.
 * SPRING_DATASOURCE_PASSWORD: senha do banco de dados
 * Certifique-se de que o arquivo ".env" está incluído em seu arquivo ".gitignore" para manter suas informações de banco de dados seguras.
 
-#### 2. Adicione as seguintes linhas no seu arquivo "application.properties":
+### 2. Execute o comando "mvn clean install" na raiz do projeto para baixar as dependências.
 
-~~~html
-spring.config.name=.env
-spring.config.location=file:./ 
-~~~
-### 3. Execute o comando "mvn clean install" na raiz do projeto para baixar as dependências.
+#### 3. Execute a aplicação com o comando "mvn spring-boot:run"
 
-#### 4. Execute a aplicação com o comando "mvn spring-boot:run"
-
-#### 5. Acesse a aplicação através da URL "http:localhost:8080"
+#### 4. Acesse a aplicação através da URL "http:localhost:8080"
 
 Obs: Certifique-se de que o banco de dados esteja configurado e rodando antes de iniciar a aplicação.
