@@ -11,8 +11,8 @@ Faça o download do código fonte da aplicação.
 
 ### 2. Execute o comando "mvn clean install" na raiz do projeto para baixar as dependências.
 
-#### 3. Execute a aplicação com o comando "mvn spring-boot:run"
+### 3. Execute a aplicação com o comando "mvn spring-boot:run"
 
-#### 4. Acesse a aplicação através da URL "http:localhost:8080"
+### 4. Acesse a aplicação através da URL "http:localhost:8080"
 
 Obs: Certifique-se de que o banco de dados esteja configurado e rodando antes de iniciar a aplicação.
