@@ -4,10 +4,10 @@ Faça o download do código fonte da aplicação.
 
 ### 1. Crie um arquivo chamado ".env" na raiz do projeto e adicione as seguintes variáveis de ambiente:
 
-SPRING_DATASOURCE_URL: URL do banco de dados
-SPRING_DATASOURCE_USERNAME: nome de usuário do banco de dados
-SPRING_DATASOURCE_PASSWORD: senha do banco de dados
-Certifique-se de que o arquivo ".env" está incluído em seu arquivo ".gitignore" para manter suas informações de banco de dados seguras.
+* SPRING_DATASOURCE_URL: URL do banco de dados
+* SPRING_DATASOURCE_USERNAME: nome de usuário do banco de dados
+* SPRING_DATASOURCE_PASSWORD: senha do banco de dados
+* Certifique-se de que o arquivo ".env" está incluído em seu arquivo ".gitignore" para manter suas informações de banco de dados seguras.
 
 #### 2. Adicione as seguintes linhas no seu arquivo "application.properties":
 
