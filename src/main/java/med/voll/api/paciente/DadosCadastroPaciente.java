@@ -8,6 +8,9 @@ import jakarta.validation.constraints.Pattern;
 import med.voll.api.endereco.DadosEndereco;
 
 public record DadosCadastroPaciente(
+
+        Long id,
+
         @NotBlank String nome,
         @NotBlank @Email String email,
         @NotBlank String telefone,
