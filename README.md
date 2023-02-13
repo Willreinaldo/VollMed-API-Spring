@@ -1,4 +1,6 @@
 # VollMed API Spring
+Projeto em que coloco em prática meus conhecimentos de Desenvolvimento Backend,  Rest API, Java, Spring Boot, Spring Security e outras funcionalidades da Spring Framework.
+
 <h2>Como utilizar a aplicação </h2>
 Faça o download do código fonte da aplicação.
 
